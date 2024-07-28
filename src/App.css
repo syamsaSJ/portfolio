@@ -1,31 +1,10 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+  animation: App-logo-spin infinite 20s linear;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +14,100 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-purple-300 {
+  --tw-gradient-from: #d6bcfa;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(214, 188, 250, 0));
+}
+
+.via-blue-200 {
+  --tw-gradient-stops: var(--tw-gradient-from), #bfdbfe, var(--tw-gradient-to, rgba(191, 219, 254, 0));
+}
+
+.to-pink-300 {
+  --tw-gradient-to: #fbcfe8;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-inner {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.transition {
+  transition: all 0.2s;
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.text-gray-600 {
+  color: #718096;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.hover\:bg-blue-700:hover {
+  background-color: #2b6cb0;
+}
+
+.hover\:text-blue-600:hover {
+  color: #2b6cb0;
+}
+
+.text-blue-500 {
+  color: #3b82f6;
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-image {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+a {
+  transition: color 0.3s ease;
+}
+
+a.text-blue-400 {
+  color: #63b3ed;
+}
+
+a.hover\:text-blue-400:hover {
+  color: #3182ce;
+}
+
+button.bg-blue-500 {
+  background-color: #4299e1;
+}
+
+button.hover\:bg-blue-700:hover {
+  background-color: #2b6cb0;
 }
