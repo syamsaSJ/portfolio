@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Profile - Syamsa Shahira Julyinda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-gradient-to-br from-[#0B0F17] via-[#111826] to-[#1B2A3C] font-poppins text-gray-200 scroll-smooth selection:bg-cyan-400/30" oncontextmenu="return false;" onselectstart="return false;">
+    <!-- Spotlight -->
+    <div id="spotlight"></div>
+
+    <!-- NAV V1 -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-500">
+      <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="/" class="text-lg md:text-xl tracking-wider font-semibold">SyamsaSJ</a>
+
+        <!-- MENU DESKTOP -->
+        <div class="hidden md:flex space-x-8 text-sm font-light">
+          <a href="#about" class="hover:text-cyan-300 transition">About</a>
+          <a href="#skills" class="hover:text-cyan-300 transition">Skills</a>
+          <a href="#projects" class="hover:text-cyan-300 transition">Portfolio</a>
+          <a href="#contact" class="hover:text-cyan-300 transition">Contact</a>
+        </div>
+
+        <!-- HAMBURGER -->
+        <button id="menu-btn" class="md:hidden text-2xl focus:outline-none hover:text-cyan-300 transition">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- MOBILE MENU -->
+      <div id="mobile-menu" class="hidden flex-col space-y-4 py-6 text-center text-sm font-light backdrop-blur-xl bg-white/10 border-t border-white/10 shadow-lg transition-all duration-500">
+        <a href="#about" class="hover:text-cyan-300 transition block">About</a>
+        <a href="#skills" class="hover:text-cyan-300 transition block">Skills</a>
+        <a href="#projects" class="hover:text-cyan-300 transition block">Portfolio</a>
+        <a href="#contact" class="hover:text-cyan-300 transition block">Contact</a>
+      </div>
+    </nav>
+
+    <!-- NAV V2 -->
+    <!-- <nav class="fixed top-6 left-0 right-0 z-50 fade-up flex justify-center">
+      <div class="max-w-6xl w-[90%] md:w-[85%] glass backdrop-blur-xl bg-white/10 border border-white/30 shadow-lg shadow-black/10 rounded-2xl px-6 py-4 flex justify-between items-center">
+        <a href="/" class="text-lg md:text-xl tracking-wider font-semibold"> SyamsaSJ </a>
+
+        <div class="hidden md:flex space-x-8 text-sm font-light">
+          <a href="#about" class="hover:text-cyan-300 transition">About</a>
+          <a href="#skills" class="hover:text-cyan-300 transition">Skills</a>
+          <a href="#projects" class="hover:text-cyan-300 transition">Portfolio</a>
+          <a href="#contact" class="hover:text-cyan-300 transition">Contact</a>
+        </div>
+      </div>
+    </nav> -->
+
+    <!-- HERO -->
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-32 pb-20 bg-[linear-gradient(135deg,#0B0F17_0%,#111826_45%,#1B2A3C_100%)] fade-up">
+      <!-- <img src="img/foto profil.jpg" class="w-32 h-32 rounded-full border border-white/10 shadow-[0_0_40px_-5px_rgba(0,200,255,0.4)] hover:scale-105 transition object-cover" /> -->
+      <h2 class="mt-6 text-3xl md:text-5xl font-bold leading-tight">Hi, I'm <span class="text-cyan-300">Syamsa Shahira Julyinda</span></h2>
+      <p class="mt-4 max-w-2xl text-gray-300 leading-relaxed">Fresh graduate of Information Systems from Telkom University Purwokerto, passionate about UI/UX Design, and Web Development.</p>
+      <!-- Social Links Hero (Glass Morph) -->
+      <div class="mt-6 flex gap-6 justify-center">
+        <a href="https://dribbble.com/username" target="_blank" class="glass w-12 h-12 flex items-center justify-center rounded-full text-gray-200 hover:text-cyan-300 hover:scale-110 transition transform shadow-lg">
+          <i class="fa-brands fa-dribbble text-xl"></i>
+        </a>
+        <a href="https://github.com/syamsaSJ" target="_blank" class="glass w-12 h-12 flex items-center justify-center rounded-full text-gray-200 hover:text-cyan-300 hover:scale-110 transition transform shadow-lg">
+          <i class="fa-brands fa-github text-xl"></i>
+        </a>
+        <a href="mailto:julyindasyamsa@gmail.com" class="glass w-12 h-12 flex items-center justify-center rounded-full text-gray-200 hover:text-cyan-300 hover:scale-110 transition transform shadow-lg">
+          <i class="fa-solid fa-envelope text-xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/syamsasj/" target="_blank" class="glass w-12 h-12 flex items-center justify-center rounded-full text-gray-200 hover:text-cyan-300 hover:scale-110 transition transform shadow-lg">
+          <i class="fa-brands fa-linkedin text-xl"></i>
+        </a>
+      </div>
+      <div class="mt-4 flex gap-4 items-center justify-center flex-wrap">
+        <a
+          href="doc/CV_Syamsa Shahira Julyinda.pdf"
+          download
+          class="ripple inline-flex items-center justify-center px-5 py-2.5 text-sm md:px-7 md:py-3 md:text-base w-auto whitespace-nowrap rounded-full bg-cyan-400/20 border border-cyan-300/40 text-cyan-200 hover:bg-cyan-300/30 transition"
+        >
+          Download CV
+        </a>
+        <a
+          href="doc/Portofolio_Syamsa Shahira Julyinda.pdf"
+          download
+          class="ripple inline-flex items-center justify-center px-5 py-2.5 text-sm md:px-7 md:py-3 md:text-base w-auto whitespace-nowrap rounded-full bg-white/5 border border-white/10 text-gray-200 hover:bg-white/10 transition"
+        >
+          Download Portfolio
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-24 reveal">
+      <h3 class="text-3xl font-semibold mb-6 text-cyan-300 text-center">About Me</h3>
+      <p class="text-gray-300 leading-relaxed text-justify">
+        I am a new graduate of Information Systems at Telkom University Purwokerto with a strong interest in software development and UI design. I have skills in HTML, CSS, Javascript, and experience in developing web applications using
+        Laravel and Laravel Filament. Additionally, I am familiar with RAD, SDLC methodology. I have participated in several academic projects and internships that gave me practical experience in database management, application
+        development, and user needs analysis. I am always eager to learn new things and ready to face challenges at work with enthusiasm and dedication
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="max-w-6xl mx-auto px-6 py-24 reveal">
+      <h3 class="text-3xl font-semibold text-center mb-10 text-cyan-300">Skills & Tools</h3>
+      <!-- Tabs -->
+      <div class="flex justify-center mb-10 space-x-4">
+        <button class="tab-btn px-6 py-2 rounded-full bg-cyan-400/20 text-cyan-200 hover:bg-cyan-300/30 transition" data-tab="skills">Skills</button>
+        <button class="tab-btn px-6 py-2 rounded-full bg-white/5 text-gray-200 hover:bg-white/10 transition" data-tab="tools">Tools</button>
+      </div>
+      <!-- Tab Contents -->
+      <div id="tab-contents">
+        <!-- Skills Tab -->
+        <div id="skills-tab" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">HTML</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">CSS</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">JavaScript</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">PHP</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">Laravel</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">Filament</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">MySQL</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">Python</div>
+        </div>
+        <!-- Tools Tab -->
+        <div id="tools-tab" class="hidden grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-5">
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">VS Code</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">Git</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">GitHub</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">XAMPP</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">Google Colab</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">Canva</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">Figma</div>
+          <div class="glass p-4 rounded-xl text-center hover:scale-105 transition">Draw.io</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTOFOLIO -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-24 reveal">
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-cyan-300 mb-10">Portfolio</h2>
+        <!-- Tabs -->
+        <div class="mb-10 flex gap-3 justify-center md:gap-4 overflow-x-auto no-scrollbar px-2 md:px-0">
+          <button class="project-tab-btn whitespace-nowrap px-5 py-2.5 text-sm md:px-6 md:py-2 md:text-base rounded-full bg-cyan-400/20 text-cyan-200 hover:bg-cyan-300/30 transition" data-tab="website">Website</button>
+          <button class="project-tab-btn whitespace-nowrap px-5 py-2.5 text-sm md:px-6 md:py-2 md:text-base rounded-full bg-white/5 text-gray-200 hover:bg-white/10 transition" data-tab="uiux">UI Design</button>
+          <button class="project-tab-btn whitespace-nowrap px-5 py-2.5 text-sm md:px-6 md:py-2 md:text-base rounded-full bg-white/5 text-gray-200 hover:bg-white/10 transition" data-tab="another">Another</button>
+        </div>
+        <!-- Project Card (Carousel) -->
+        <div id="project-card" class="glass p-8 md:p-10 rounded-3xl mx-auto grid md:grid-cols-2 gap-6 items-center transition-all duration-700 opacity-0 translate-y-4 max-w-6xl">
+          <!-- Text Content -->
+          <div class="flex flex-col justify-center space-y-4">
+            <h3 id="project-title" class="text-2xl md:text-3xl font-semibold text-white text-left"></h3>
+            <p id="project-desc" class="text-gray-300 text-left"></p>
+            <a id="project-link" href="#" target="_blank" class="glass inline-flex items-center justify-center px-5 py-2 rounded-full border border-cyan-300/40 text-cyan-200 hover:bg-cyan-300/20 hover:text-white transition shadow-md">
+              View Project
+            </a>
+          </div>
+          <!-- Image -->
+          <div class="flex justify-center items-center">
+            <img id="project-image" class="rounded-2xl shadow-lg object-cover w-full h-auto max-h-80 md:max-h-96" />
+          </div>
+        </div>
+        <div class="mt-8 flex justify-center gap-4">
+          <button id="prev-project" class="px-7 py-3 rounded-full bg-white/5 border border-white/10 text-gray-200 hover:bg-white/10 transition">← Previous</button>
+          <button id="next-project" class="px-7 py-3 rounded-full bg-cyan-400/20 border border-cyan-300/40 text-cyan-200 hover:bg-cyan-300/30 transition">Next →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="text-center py-12 text-gray-400 glass mt-24">
+      <p class="text-lg font-medium text-white">Let's Connect</p>
+      <!-- Social Links Hero (Glass Morph) -->
+      <div class="mt-6 flex gap-6 justify-center">
+        <a href="https://dribbble.com/username" target="_blank" class="glass w-12 h-12 flex items-center justify-center rounded-full text-gray-200 hover:text-cyan-300 hover:scale-110 transition transform shadow-lg">
+          <i class="fa-brands fa-dribbble text-xl"></i>
+        </a>
+        <a href="https://github.com/syamsaSJ" target="_blank" class="glass w-12 h-12 flex items-center justify-center rounded-full text-gray-200 hover:text-cyan-300 hover:scale-110 transition transform shadow-lg">
+          <i class="fa-brands fa-github text-xl"></i>
+        </a>
+        <a href="mailto:julyindasyamsa@gmail.com" class="glass w-12 h-12 flex items-center justify-center rounded-full text-gray-200 hover:text-cyan-300 hover:scale-110 transition transform shadow-lg">
+          <i class="fa-solid fa-envelope text-xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/syamsasj/" target="_blank" class="glass w-12 h-12 flex items-center justify-center rounded-full text-gray-200 hover:text-cyan-300 hover:scale-110 transition transform shadow-lg">
+          <i class="fa-brands fa-linkedin text-xl"></i>
+        </a>
+      </div>
+      <p class="mt-6 text-xs text-gray-500">© 2025 Syamsa Shahira Julyinda. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

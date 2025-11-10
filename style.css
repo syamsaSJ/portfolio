@@ -1,0 +1,93 @@
+/* Fade Up Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeInUp 1s ease both;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Reveal on Scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: 0.8s;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Button Ripple */
+button.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+button.ripple:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(0);
+  border-radius: inherit;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+button.ripple:active:after {
+  transform: scale(2);
+  opacity: 1;
+}
+
+/* Spotlight Cursor Aura */
+#spotlight {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  mix-blend-mode: soft-light;
+  transition: clip-path 0.2s ease;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.25), transparent 70%);
+}
+
+/* Glass Morph */
+.glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* .glass {
+  transition: 0.35s ease;
+}
+.glass:hover {
+  background: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 8px 32px rgba(0, 200, 255, 0.15);
+} */
+
+.nav-scrolled {
+  background: rgba(17, 25, 38, 0.75); /* warna gelap elegan */
+  backdrop-filter: blur(18px);
+  transition: 0.4s ease;
+  box-shadow: 0 8px 30px rgba(0, 200, 255, 0.08);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
