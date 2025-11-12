@@ -98,7 +98,7 @@ const projectsData = {
     {
       title: "StrataAcademy Web",
       desc: "A medical learning platform designed to help students understand clinical concepts and scientific research in depth.",
-      img: "img/skillpath.png",
+      img: "https://syamsasj.github.io/portfolio/img/strataacademy.png",
       link: "https://strataacademy.my.id/",
     },
   ],
